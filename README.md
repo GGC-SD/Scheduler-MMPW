@@ -18,7 +18,7 @@ Discord
 ## Team Roles
 
 1. 
-1.
+1. Malik Norford - Lead Programmer/ Documentation :spades:
 1. Phillip Chazares - UI/UX Design & Testing :racing_car:
 1. Weston Armstrong - Team Manager/Testing :bowtie:
 
