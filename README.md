@@ -5,11 +5,11 @@ Faculty Scheduler input
 
 ## Repo Location
 
-https://github.com/GGC-SD/MMPW
+[MMPW](https://github.com/GGC-SD/MMPW)
 
 ## Project Tracking Tool
 
-Trello
+[Trello](https://trello.com/b/8kwxA0Xg/mmpw-inc-project)
 
 ## Other Communication Tools
 
