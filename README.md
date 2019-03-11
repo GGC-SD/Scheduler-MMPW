@@ -19,6 +19,6 @@ Discord
 
 1. 
 1.
-1.
+1. Phillip Chazares - UI/UX Design & Testing :racing_car:
 1. Weston Armstrong - Team Manager/Testing :bowtie:
 
