@@ -20,5 +20,3 @@ Discord
 1.
 1. Weston Armstrong - Team Manager/Testing :bowtie:
 
-
-### Installation Instructions
