@@ -5,6 +5,8 @@ Faculty Scheduler input
 
 ## Repo Location
 
+https://github.com/GGC-SD/MMPW
+
 ## Project Tracking Tool
 
 Trello
