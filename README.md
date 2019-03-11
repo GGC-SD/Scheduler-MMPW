@@ -19,7 +19,7 @@ Discord
 
 ## Team Roles
 
-1. 
+1. Matheus Silva - Data Modeler / Client Liason :new_moon_with_face:
 1. Malik Norford - Lead Programmer/ Documentation :spades:
 1. Phillip Chazares - UI/UX Design & Testing :racing_car:
 1. Weston Armstrong - Team Manager/Testing :bowtie:
