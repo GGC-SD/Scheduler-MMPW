@@ -1,19 +1,19 @@
 # MMPW
 Faculty Scheduler input
 
-### Description
+## Description
 
-### Repo Location
+## Repo Location
 
-### Project Tracking Tool
+## Project Tracking Tool
 
 Trello
 
-### Other Communication Tools
+## Other Communication Tools
 
 Discord
 
-### Team Roles
+## Team Roles
 
 1. 
 1.
