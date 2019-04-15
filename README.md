@@ -1,3 +1,6 @@
+##Faculty Scheduler Input 
+
+
 ## Description
 
 As part of our Software Development 1 course with Dr. Doloc Mihu, we are working on creating a website that will allow faculty members to input their scheduling preferences, which will automatically generate their course schedule for the fall semester. Our team's portion is in charge of creating the login and input page for the faculty members. 
