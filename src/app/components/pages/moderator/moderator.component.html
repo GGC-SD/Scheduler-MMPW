@@ -1,3 +1,63 @@
-<p>
-  moderator works!
-</p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title>Moderator</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    </head>
+    <body id="Moderator">
+        <!--ggc banner image-->
+        <header class="main-header" role="banner">
+            <img src="assets/banner.jpg" alt="banner-image" id="banner">
+            <div class="logo"></div>            
+        </header>
+        <!--Navigation bar-->
+        <nav id="navigationbar">
+            <a class="navtabs" href="Login.html" id="logout">Logout</a>
+        </nav>
+        <h4 id="modpagetext">Moderator Page</h4>
+        <!--moderator div used to enter 
+            faculty email address
+            and choose the notification-->
+        <div id="modWindow">
+            <div id="Moderation_Selection">
+                Notification Selection
+            </div> 
+            <input type="text" id="facultyEmailInput" placeholder="Faculty Email Address">
+            <button type="button" class="button" id="enterBtn" onclick="getFacultyCourses()">Enter</button>
+            <br>
+            <div class="rdform">
+                <form id="radioform" name="notifyList">
+                    <input type="radio" name="radioList" class="RdBtn" id="maintRd" value="Maintenance">Maintenance<br><br>
+                    <input type="radio" name="radioList" class="RdBtn" id="signupRd" value="Signup Date">Signup Date<br><br>
+                    <input type="radio" name="radioList" class="RdBtn" id="deadlineRd" value="Signup Deadline">Signup Deadline<br><br>
+                    <input type="radio" name="radioList" class="RdBtn" id="loginRd" value="Login">Login<br><br>
+                </form>
+            </div> 
+            <br><br><br><br>
+            <button type = "button" class="button" id="submitBtn" onclick="getEmailSubject()">Submit</button>
+            <button type="button" class="button" id="cancelBtn" onclick="unCheck()">Cancel</button>  
+            <p id="demo"></p>   
+        </div>
+        <!--Faculty information field-->
+        <div id="facultyInfoDiv">
+            <div id="Faculty_Course_Information">Faculty Course Information</div>
+                <br>
+                <textarea disabled rows="22" cols="68" id="infofield"></textarea>
+            </div>
+        <!--email popup form-->    
+        <div id="email-background">
+            <form id="email-content" action="modEmail.php" mehod="post">   
+                <input type="text" id="emailInput" placeholder="Email" name="email"><br>
+                <input type="text" id="emailSubject" placeholder="Subject" name="subject">
+                <textarea id="emailTextArea" rows="20" cols="50" name="message"></textarea><br><br>
+                <button type="button" class="button" id="emailSendBtn" onclick="sendEmail()">Send</button> 
+                <button type="reset" class="button" id="emailCancelBtn" onclick="clearContent()">Cancel</button>         
+            </form>
+        </div>
+        <script src="modScript.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script language = "php" src="modEmail.php"></script>
+    </body>
+</html>

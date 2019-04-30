@@ -1,3 +1,103 @@
-<p>
-  preferences works!
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Preferences</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+<body>
+    <header class="main-header" role="banner">
+        <img src="assets/banner.jpg" alt="banner-image" id="banner">
+        <div class="logo"></div>            
+    </header>
+    <nav id="navigationbar">
+        <a class="navtabs" href="preferences.html">Profile</a>
+        <a class="navtabs" href="#">Scheduler</a>
+        <a class="navtabs" href="Login.html" id="logout">Logout</a>
+    </nav>
+    <div id="preference-select">
+        <div id="title">
+            <h1 >Choose Your Course Preferences</h1>
+        </div>
+        <h3><u>Choose Day of the week:</u></h3>
+        <form action="" method="post">
+            <input type="checkbox" name="MWF" value="MWF" /> MWF
+            <input type="checkbox" name="TR" value="TR" /> TR
+            <input type="checkbox" name="MW" value="MW" /> MW
+            <input type="checkbox" name="M" value="M"/> M
+            <input type="checkbox" name="T" value="T"/> T
+            <input type="checkbox" name="W" value="W"/> W
+            <input type="checkbox" name="R" value="R"/> R
+            <input type="checkbox" name="F" value="F"/> F
+            </form>
+        <h3><u>Choose best start time:</u></h3>
+        <form action="" method="post">
+            <input type="checkbox" name="times" value="7am" /> 7am
+            <input type="checkbox" name="times" value="8am" /> 8am
+            <input type="checkbox" name="times" value="9:30am" /> 9:30am
+            <input type="checkbox" name="times" value="10am" /> 10am
+            <input type="checkbox" name="times" value="11am" /> 11am
+            <input type="checkbox" name="times" value="12pm" /> 12pm
+            <input type="checkbox" name="times" value="12:30pm" /> 12:30pm
+            <input type="checkbox" name="times" value="1pm" /> 1pm
+            <input type="checkbox" name="times" value="2pm" /> 2pm
+            <input type="checkbox" name="times" value="3:30pm" /> 3:30pm
+            <input type="checkbox" name="times" value="4pm" /> 4pm
+            <input type="checkbox" name="times" value="5pm" /> 5pm
+            <input type="checkbox" name="times" value="6:30pm" /> 6:30pm
+            <input type="checkbox" name="no preference" value="n/a"/> No Preference
+        </form>
+        <h3><u>Choose Course Level:</u></h3>
+        <select name="classes" multiple>
+            <option value="Intro to Computing">Intro to Computing</option>
+            <option value="Intro to Computing-Hybrid">Intro to Computing-Hybrid</option>
+            <option value="Digital Media"> Digital Media</option>
+            <option value="Intro to Programming"> Intro to Programming</option>
+            <option value="Web Technologies"> Web Technologies</option>
+            <option value="Intermediate Programming"> Intermediate Programming </option>
+            <option value="Introduction to Info Systems"> Introduction to Info Systems </option>
+            <option value="Introduction to Networks"> Introduction to Networks </option>
+            <option value="Intro to Databases"> Intro to Databases </option>
+            <option value="Information Security"> Information Security </option>
+            <option value="Digital Commerce"> Digital Commerce </option>
+            <option value="Comp Graphics and Multimedia"> Comp Graphics and Multimedia </option>
+            <option value="Operating Systems"> Operating Systems </option>
+            <option value="Systems Analysis and Design"> Systems Analysis and Design </option>
+            <option value="Software Development I"> Software Development I </option>
+            <option value="Software Development II"> Software Development II </option>
+            <option value="Professional Pract & Ethics"> Professional Pract & Ethics </option>
+            <option value="Advanced Networks"> Advanced Networks </option>
+            <option value="Digital Media Capstone Project"> Digital Media Capstone Project </option>
+            <option value="Human Computer Interaction"> Human Computer Interaction </option>
+            <option value="Enterprise Process Integration"> Enterprise Process Integration </option>
+            <option value="Advanced Databases"> Advanced Databases </option>
+            <option value="Information Analytics"> Information Analytics </option>
+            <option value="Advanced Data Analytics"> Advanced Data Analytics </option>
+            <option value="Software Testing and QA"> Software Testing and QA </option>
+            <option value="Internet Security"> Internet Security </option>
+            <option value="System Administration">System Administration</option>
+            <option value="Special Topics in Infor. Tech.">Special Topics in Infor. Tech.</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Mobile Application Development">Mobile Application Development</option>
+            <option value="Game Development">Game Development</option>
+            <option value="Artificial Intelligence">Artificial Intelligence</option>
+            <option value="Enterprise Architecture Design">Enterprise Architecture Design</option>
+            <option value="Info Technology Project I">Info Technology Project I</option>
+            <option value="Software Development Project">Software Development Project</option>
+            <option value="Info Technology Internship">Info Technology Internship</option>
+            <option value="Internship in Service Learning">Internship in Service Learning</option>
+            <option value="Info Technology Internship">Info Technology Internship</option>
+            <option value="Digital Media-Hybrid Honors"> Digital Media-Hybrid Honors</option>
+            <option value="Enterprise Arch Design-Hybrid"> Enterprise Arch Design-Hybrid </option>
+            <option value="Intro to Undergrad Reasearch"> Intro to Undergrad Reasearch </option>
+            <option value="Programming Fundamentals"> Programming Fundamentals </option>
+            <option value="Undergraduate Research Project"> Undergraduate Research Project </option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" class="button" id="submitPref">
+    </div>
+</body>
+</html>
